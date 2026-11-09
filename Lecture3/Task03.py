@@ -2,11 +2,10 @@
 # Once the input stops, the program outputs the smallest and largest numbers entered.
 numbers = []
 while True:
-    user_input = input("Enter a number (leave blank to finish): ")
+    user_input = input("Please Enter a number: ")
     if user_input == "":
         break
     numbers.append(float(user_input))
-
 if numbers:
     print(f"Smallest: {min(numbers)}")
     print(f"Largest: {max(numbers)}")
