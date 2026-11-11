@@ -8,5 +8,3 @@ seasons = ("winter", "spring", "summer", "autumn")
 month = int(input("Please Enter the number of a month : "))
 season = seasons[(month % 12) // 3]
 print(f"The corresponding season is {season}")
-
-
